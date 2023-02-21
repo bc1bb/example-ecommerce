@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+}
+
+.space {
+    margin: 7%;
+}
+
+.half-space {
+    margin: 3%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-left {
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.flex-right {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.threepercent-lr-margin {
+    margin-left: 3%;
+    margin-right: 3%;
+    gap: 3%;
+}
+
+hr {
+    color: black;
+    border: none;
+    height: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-top: 1px dashed grey;
+}
+
+.important-link {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+
+    font-family: 'Noto Sans', serif;
+    font-weight: bold;
+}
+
+.b-bg {
+    background: black;
+    color: white;
+}
+
+.logo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.logo-title {
+    font-family: 'Rubik Mono One', serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* RUBIK MONO ONE FONT */
+@font-face {
+    font-family: 'Rubik Mono One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://fonts.gstatic.com/s/rubikmonoone/v14/UqyJK8kPP3hjw6ANTdfRk9YSN983TKUJcOj8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* NOTO SANS FONT */
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
