@@ -7,10 +7,14 @@ html {
 }
 
 .product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
     border: 1px solid black;
     border-radius: 3px;
     max-width: 25%;
-    height: 30%;
+    margin-bottom: 3%;
 }
 
 .space {
@@ -26,24 +30,18 @@ html {
 }
 
 .product-img {
-    height: 10%;
     margin: 3%;
     width: 95%;
 }
 
 .buy-button {
+    display: flex;
     border: 1px grey solid;
     background: lightgray;
     border-radius: 4px;
     margin: 3% 1% 5%;
     padding: 1% 12%;
     font-size: large;
-}
-
-.top-to-bottom {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
 }
 
 .no-decoration {
@@ -56,9 +54,18 @@ html {
     flex-direction: row;
 }
 
+.flex-center {
+    justify-content: center;
+    flex-direction: row;
+}
+
 .flex-right {
     justify-content: flex-end;
     flex-direction: row-reverse;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .threepercent-lr-margin {
@@ -90,7 +97,19 @@ html {
 
 .logo {
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 0.7%;
+}
+
+@media (max-width: 500px) {
+    .logo-title {
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1000px) {
+    .logo-title {
+        font-size: xxx-large;
+    }
 }
 
 .logo-title {
