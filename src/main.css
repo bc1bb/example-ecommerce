@@ -1,5 +1,14 @@
 html {
     font-family: 'Noto Sans', serif;
+
+    --background: #aeae91;
+    --black: #3d2828;
+    --dark-green: #5d3c36;
+    --dark-orange: #865e4b;
+    --orange: #b88a64;
+    --yellow: #d9c17e;
+
+    background: var(--background);
 }
 
 .container {
@@ -11,10 +20,11 @@ html {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     border-radius: 3px;
     max-width: 25%;
     margin-bottom: 3%;
+    justify-content: space-around;
 }
 
 .space {
@@ -36,17 +46,17 @@ html {
 
 .buy-button {
     display: flex;
-    border: 1px grey solid;
-    background: lightgray;
+    border: 1px solid var(--black);
+    background: var(--black);
     border-radius: 4px;
     margin: 3% 1% 5%;
     padding: 1% 12%;
-    font-size: large;
+    font-size: x-large;
 }
 
 .no-decoration {
     text-decoration: none;
-    color: black;
+    color: var(--yellow);
 }
 
 .flex-left {
@@ -75,24 +85,24 @@ html {
 }
 
 .sep {
-    color: black;
+    color: var(--black);
     border: none;
     height: 0;
     margin-left: 2%;
     margin-right: 2%;
-    border-top: 1px dashed grey;
+    border-top: 1px solid var(--black);
 }
 
 .important-link {
     text-decoration: none;
-    color: black;
+    color: var(--yellow);
     font-size: larger;
     font-weight: bolder;
 }
 
 .b-bg {
-    background: black;
-    color: white;
+    background: var(--black);
+    color: var(--yellow);
 }
 
 .logo {
