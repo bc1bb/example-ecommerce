@@ -1,12 +1,19 @@
+html {
+    font-family: 'Noto Sans', serif;
+}
+
 .container {
     display: flex;
 }
 
-.space {
-    margin: 7%;
+.product {
+    border: 1px solid black;
+    border-radius: 3px;
+    max-width: 25%;
+    height: 30%;
 }
 
-.half-space {
+.space {
     margin: 3%;
 }
 
@@ -16,6 +23,32 @@
 
 .space-between {
     justify-content: space-between;
+}
+
+.product-img {
+    height: 10%;
+    margin: 3%;
+    width: 95%;
+}
+
+.buy-button {
+    border: 1px grey solid;
+    background: lightgray;
+    border-radius: 4px;
+    margin: 3% 1% 5%;
+    padding: 1% 12%;
+    font-size: large;
+}
+
+.top-to-bottom {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: black;
 }
 
 .flex-left {
@@ -34,7 +67,7 @@
     gap: 3%;
 }
 
-hr {
+.sep {
     color: black;
     border: none;
     height: 0;
@@ -47,9 +80,7 @@ hr {
     text-decoration: none;
     color: black;
     font-size: larger;
-
-    font-family: 'Noto Sans', serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .b-bg {
