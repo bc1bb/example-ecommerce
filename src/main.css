@@ -95,7 +95,7 @@ html {
 
 .important-link {
     text-decoration: none;
-    color: var(--yellow);
+    color: var(--dark-orange);
     font-size: larger;
     font-weight: bolder;
 }
