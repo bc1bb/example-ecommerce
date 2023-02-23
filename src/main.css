@@ -1,7 +1,7 @@
-html {
+html, body {
     font-family: 'Noto Sans', serif;
 
-    --background: #aeae91;
+    --background: #ffffa9;
     --black: #3d2828;
     --dark-green: #5d3c36;
     --dark-orange: #865e4b;
@@ -22,9 +22,36 @@ html {
     align-items: center;
     border: 1px solid var(--black);
     border-radius: 3px;
-    max-width: 25%;
     margin-bottom: 3%;
     justify-content: space-around;
+}
+
+.product-img {
+    margin: 3%;
+    width: 85%;
+    border-radius: 7px;
+}
+
+/* Phone */
+@media (max-width: 600px) {
+    .product {
+        max-width: 40%;
+    }
+
+    .product-img {
+        width: 90%;
+    }
+}
+
+/* PC */
+@media (min-width: 600px) {
+    .product {
+        max-width: 20%;
+    }
+
+    .product-img {
+        width: 70%;
+    }
 }
 
 .flex-column {
@@ -45,11 +72,6 @@ html {
 
 .space-between {
     justify-content: space-between;
-}
-
-.product-img {
-    margin: 3%;
-    width: 95%;
 }
 
 .buy-button {
@@ -138,9 +160,9 @@ div.logo {
     margin-bottom: 0.7%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .logo-title {
-        font-size: larger;
+        font-size: x-large;
     }
 }
 
