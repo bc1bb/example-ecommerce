@@ -27,6 +27,14 @@ html {
     justify-content: space-around;
 }
 
+.flex-column {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
 .space {
     margin: 3%;
 }
@@ -113,11 +121,16 @@ html {
 
 .align-center {
     align-items: center;
+    align-content: center;
 }
 
 .b-bg {
     background: var(--black);
     color: var(--yellow);
+}
+
+footer {
+
 }
 
 div.logo {
