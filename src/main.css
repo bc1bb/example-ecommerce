@@ -78,6 +78,10 @@ html {
     flex-wrap: wrap;
 }
 
+.nowrap {
+    flex-wrap: nowrap;
+}
+
 .threepercent-lr-margin {
     margin-left: 3%;
     margin-right: 3%;
@@ -100,12 +104,23 @@ html {
     font-weight: bolder;
 }
 
+.link {
+    text-decoration: none;
+    color: var(--dark-orange);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.align-center {
+    align-items: center;
+}
+
 .b-bg {
     background: var(--black);
     color: var(--yellow);
 }
 
-.logo {
+div.logo {
     margin-top: 1%;
     margin-bottom: 0.7%;
 }
