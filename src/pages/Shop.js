@@ -2,10 +2,8 @@ function Shop() {
   return (
       <main className="container flex-center threepercent-lr-margin wrap">
         <div className="product">
-          <div className="product-img-div">
             <img src="./products/alex-lvrs-dKMueUuH5CQ-unsplash.jpg" className="product-img"></img>
-          </div>
-          <div className="container justify-center buy-button">
+          <div className="justify-center buy-button">
             <a href="#" className="no-decoration">Buy</a>
           </div>
         </div>
