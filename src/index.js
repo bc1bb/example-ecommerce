@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
       <Header />
       <NavBar />
-      
+
       <Router>
           <Routes>
               <Route exact path="/" element={<Shop />} />

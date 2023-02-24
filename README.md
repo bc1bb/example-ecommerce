@@ -1,3 +1,3 @@
 # E-commerce Example
 
-Example e-commerce page made with flexbox.
+Example e-commerce page made with Flexbox and React.
